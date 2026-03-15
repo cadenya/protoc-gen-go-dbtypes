@@ -19,13 +19,13 @@ For each protobuf message, the plugin generates a `*Value` wrapper type (e.g., `
 ### Install the Plugin
 
 ```bash
-go install github.com/cadenya-agents/protoc-gen-go-dbtypes/cmd/protoc-gen-go-dbtypes@latest
+go install github.com/cadenya/protoc-gen-go-dbtypes/cmd/protoc-gen-go-dbtypes@latest
 ```
 
 Or build from source:
 
 ```bash
-git clone https://github.com/cadenya-agents/protoc-gen-go-dbtypes.git
+git clone https://github.com/cadenya/protoc-gen-go-dbtypes.git
 cd protoc-gen-go-dbtypes
 go install ./cmd/protoc-gen-go-dbtypes
 ```
